@@ -1,0 +1,81 @@
+*{margin:0;padding:0;border:0;list-style: none;}
+body{font-family: "微软雅黑";font-size: 16px;background-color: #C9C9DD;}
+a{text-decoration: none;}
+.header-inner {
+    width: 1000px;
+    background: url(../img/head_bg.jpg) repeat-x;
+	margin:5px auto;
+	overflow: hidden;
+}
+.center{
+	text-align: center;
+	margin-top: 50px;
+}
+.header-inner .logo{float: left;width: 200px; height: 128px;}
+.header-inner .right{float: right;width: 200px; height: 128px;}
+.nav{
+	width:100%;
+	height:40px;
+	background: #CD974B;
+	margin-top: 0px;
+}
+.nav .nav_in{
+	width:1280px;
+	margin:0 auto;
+}
+.nav_in li{float: left;}
+.nav_in li a{
+	display: block;
+	line-height: 40px;
+	padding:0 55px;
+}
+.nav_in li.current{background: #da5454;}
+.nav_in a:hover{background: #da5454;}
+.main {
+    width:100px;
+    height:700px;
+}
+.center02{
+	width: 1080px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 30px 0 0 68px;
+}
+.main {
+	position: relative;
+	width: 1075px;
+	height: 360px;
+	overflow: hidden;
+	text-align: center;
+}
+.main .data{
+	alt: " ";
+	float: left;
+	margin-top: 20px;
+}
+.main p{text-align: right; display: block;}
+.jieshao{
+	font-size: 30px;
+	color: #333333;
+	margin-bottom: 20px;
+}
+.jieshao2{
+	font-size: 16px;
+	color: #909090;
+	line-height: 40px;
+}
+.skill{
+	height: 100px;
+	padding: 20px 0 0 30px;
+	font-size: 2px;
+	color: #909090;
+	line-height: 15px;
+}
+.data2{
+	alt: " ";
+	float: right;
+	margin-top: 20px;
+}
+.center03{
+	text-align: center;
+}
